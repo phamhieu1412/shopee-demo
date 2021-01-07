@@ -1,0 +1,30 @@
+/* footer */
+
+.container .row .footer {
+    margin: 15px 0;
+    padding: 30px 0;
+    border-top: 1px solid gray;
+}
+.footer .footer-area {
+    display: flex;
+} 
+.footer .footer-area p {
+    padding: 0 5px;
+    border-right: 1px solid rgb(177, 176, 176);
+}
+.footer-left {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.footer-right {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-right {
+        flex-direction: column;
+    }
+}

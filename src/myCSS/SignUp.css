@@ -1,0 +1,115 @@
+
+/* Page sign up */
+
+.sign-up {
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background: #e5e4e4;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.sign-up-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+.sign-up h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sign-up .sign-up-left input[type="text"],
+.sign-up .sign-up-left input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+    font-family: sans-serif;
+}
+.sign-up .sign-up-left input[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform:  uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.sign-up .sign-up-left input[type="submit"]:hover,
+.sign-up .sign-up-left input[type="submit"]:focus {
+    background: #ff5722;
+    transition: 0.2s ease;
+}
+
+.sign-up-right {
+    position: absolute;
+    top:0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url(https://doopage.com/assets/uploads/2019/05/dau-tu-hinh-anh-khi-ban-hang-tren-shopee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.or {
+    position: absolute;
+    top:  180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.button-with {
+    position: absolute;
+    top: 45%;
+}
+.social {
+    margin-bottom: 10px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.facebook {
+    background: #32508e;
+}
+.twitter {
+    background: #55acee;
+}
+.google {
+    background: #dd4b39;
+}
+.log-btn {
+    background: #3a5959;
+}

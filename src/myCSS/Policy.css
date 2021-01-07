@@ -1,0 +1,24 @@
+/* Policy */
+
+.policy-content, .policy-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+}
+.policy-content p {
+    margin: 0 20px;
+}
+.policy-address p {
+    text-align: center;
+}
+.policy-img img {
+    width: 150px;
+    margin: 0 20px;
+}
+@media (max-width: 768px) {
+    .policy-content, .policy-img {
+        flex-direction: column;
+        text-align: center;
+    }
+}

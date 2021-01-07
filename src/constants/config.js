@@ -1,0 +1,1 @@
+export const API_URL = "https://5de902c2cb3e3800141b8c9d.mockapi.io/shopee/";

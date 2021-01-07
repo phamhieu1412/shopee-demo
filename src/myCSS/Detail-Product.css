@@ -1,0 +1,247 @@
+
+/* Slick js */
+
+.slick-dots {
+    bottom: -65px !important;
+}
+.slick-dots li, .slick-dots li button {
+    cursor: pointer;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 60px !important;
+    height: 20px;
+    margin: 10px !important;
+    padding: 0;
+}
+.slick-slide img {
+    border: 5px solid #fff;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    
+    padding: 0;
+}
+.slick-thumb li {
+    width: 60px;
+    height: 45px;
+}
+.slick-thumb li img {
+    max-width: 100%;
+    margin: 0 0 1.45rem;
+    padding: 0;
+    filter: grayscale(100%);
+    border-style: none;
+}
+.slick-next:before, .slick-prev:before {
+    color: black !important;
+}
+.slick-prev:before {
+    content: "\2190";
+}
+.slick-next:before {
+    content: "\2192";
+}
+.slick-next {
+    right: 45px !important;
+    z-index: 100;
+}
+.slick-prev {
+    left: 45px !important;
+    z-index: 100;
+}
+.container .row .item-icon i {
+    font-size: 200%;
+    margin-left: 15px;
+}
+
+
+#toast-container>div, .btn{
+    color: rgb(19, 18, 18)!important;
+    font-size: 1.0em !important;
+}
+#toast-container>div, .btn:focus{
+    border: 1px solid rgb(243, 120, 19);
+}
+
+
+.detail__product-AddToCart {
+    border: 2px solid #ee4d2d;
+    color: #ee4d2d !important;
+}
+.detail__product-BuyNow {
+    background-color: #ee4d2d;
+    border: 2px solid #ee4d2d;
+    color: white !important;
+}
+.detail__product-AddToCart, .detail__product-BuyNow {
+    opacity: 1;
+}
+.detail__product-AddToCart:hover, .detail__product-BuyNow:hover {
+    opacity: 0.8;
+}
+
+/* Discount */
+
+.tixContainer {
+    position: relative;
+    margin: 50px;
+    -webkit-transform: rotateZ(-5deg) rotateY(0deg);
+}
+.scene {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 15vh;
+    padding: 1rem;
+    background-color: #fff;
+    position: relative;
+}
+.scene .ticket {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background: lightcoral;
+    box-shadow: 0 25px 10px -20px rgba(0, 0, 0, .18);
+    border-left: 2px dotted rgba(173, 216, 230, .75);
+    position: relative;
+}
+.scene .ticket:nth-child(2n + 0) {
+    background: #348fac;
+}
+.scene .ticket:last-of-type {
+    border-right: 2px dotted rgba(173, 216, 230, .75);
+}
+.scene .ticket::before, .scene .ticket::after {
+    content: '';
+    position: absolute;
+}
+.scene .ticket::before {
+    width: 25px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    top: -13px;
+    left: -15px;
+    box-shadow: 0px 32px 0 0 #fff, 0px 63px 0 0 #fff, 100px 0px 0 0 #fff, 100px 32px 0 0 #fff, 100px 63px 0 0 #fff;
+}
+.scene .ticket::after {
+    content: '';
+
+}
+.scene .ticket p{
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding-top: 5px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 0.7em;
+    color: rgba(7, 7, 7, .7);
+}
+
+/* dropdown country */
+.mbsc-input-box.mbsc-control-w.mbsc-ios.mbsc-ltr.mbsc-input {
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 5px 10px !important;
+}
+.transport-fee ul {
+    list-style-type: circle;
+    margin: 20px 10px  20px -10px !important;
+}
+
+/* review % */
+.glyphicon { margin-right:5px;}
+.rating .glyphicon {font-size: 22px;}
+.rating-num { margin-top:0px;font-size: 54px; }
+.progress { margin-bottom: 5px;}
+.progress-bar { text-align: left; }
+.rating-desc .col-md-3 {padding-right: 0px;}
+.sr-only { margin-left: 5px;overflow: visible;clip: auto; }
+
+/* Info seller */
+
+.container.block__seller {
+    background-color: #fff;
+    padding: 20px;
+}
+.container .block__seller-info {
+    display: flex;
+}
+.block__seller .block__seller-view p {
+    margin: 15px 0 ;
+    opacity: 0.6;
+}
+.block__seller .block__seller-view p span {
+    opacity: 1;
+    color: red;
+    padding-left: 10px;
+}
+.block__seller .block__seller-info h5 {
+    margin: 0;
+}
+.block__seller .block__seller-info p {
+    opacity: 0.7;
+}
+.block__seller .block__seller-info button:nth-child(2n+1) {
+    border: 1px solid #d0011b;
+    color: #d0011b;
+    padding: 5px 15px;
+    background-color: rgba(208,1,27,.08);
+}
+.block__seller .block__seller-info button:nth-child(2n+1):hover {
+    background-color: rgba(208,1,27,.15);
+}
+.block__seller .block__seller-info button:nth-child(2n):hover {
+    background-color: #eee;
+}
+.block__seller .block__seller-info button:nth-child(2n) {
+    padding: 5px 15px;
+    margin-left: 10px;
+    background-color:white;
+    border: 1px solid #e1e1e1;
+}
+
+/* Phi van chuyen va noi chuyen */
+
+.transport-address {
+    width: 300px;
+    border: 1px solid rgba(0,0,0,.09);
+    background-color:#fff;
+    z-index: 1;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: .125rem;
+    overflow: hidden;
+}
+.transport-address input {
+    outline: none;
+    border: none;
+    background-color: #f5f5f5;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    padding: 0 .625rem;
+    border-radius: 2px;
+}
+.transport-address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 17.5rem;
+    overflow-y: scroll;
+}
+.transport-address ul li {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .625rem;
+    list-style: none;
+}

@@ -1,0 +1,11 @@
+/* Navbar */
+.collapse.navbar-collapse.navbar-ex1-collapse .nav.navbar-nav {
+    display: flex;
+}
+.nav-fixed.navbar-fixed-top .navbar.navbar-default{
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+.nav-fixed.navbar-fixed-top .navbar.navbar-default ul li,
+.nav-fixed.navbar-fixed-top .navbar.navbar-default ul li a {
+    color: white;
+}

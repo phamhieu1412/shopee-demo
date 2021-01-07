@@ -1,0 +1,24 @@
+
+/* benefit */
+.benefit .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.benefit .b-block b {
+    font-weight: 600;
+}
+
+@media (max-width:768px) {
+    .benefit .container .row {
+        flex-direction: column;
+    }
+    .benefit .b-block {
+        margin-bottom: 20px;
+    }
+    .benefit .b-block b {
+        text-decoration: underline;
+    }
+}

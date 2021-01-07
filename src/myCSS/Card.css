@@ -1,0 +1,111 @@
+/* card */
+.card-product {
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-product ul.list-product {
+    margin: 60px auto;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+}
+.card-product ul.list-product li {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    list-style: none;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-bottom: -25px;
+}
+
+.card-product ul.list-product li img {
+    height: 180px;
+    width: 100%;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.card-product ul.list-product li .content {
+    position: absolute;
+    width: 100%;
+    top: 190px;
+    padding:  0 5px;
+}
+
+.card-product ul.list-product li .content h4 {
+    font-family: "lato", sans-serif;
+    margin: 5px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(204, 121, 148);
+    transition: all .4s ease-in-out;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.card-product ul.list-product li .content p {
+    font-size: 12px;
+    margin: 20px 6px;
+    color: rgb(94, 93, 93);
+}
+
+.card-product ul.list-product li:hover {
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4)
+}
+
+.card-product ul.list-product li:hover .more {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4)
+}
+
+.card-product ul.list-product li:hover h4 {
+    color: rgb(43, 190, 190)
+}
+
+.card-product ul.list-product li .more {
+    position: absolute;
+    bottom: 5px;
+    height: 25px;
+    width: 80px;
+    bottom:-5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 12px;
+    font-family: "lato", sans-serif;
+    line-height: 22px;
+    visibility: hidden;
+    background: rgb(95, 197, 184);
+    transition: all .2s linear;
+}
+
+.card-product ul.list-product li .more a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-product ul.list-product li:hover .more {
+    visibility: visible;
+}
+/* media query card*/
+@media(max-width:768px) {
+    .card-product ul.list-product {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    .card-product ul.list-product li img {
+        height: 168px;
+    }
+}
