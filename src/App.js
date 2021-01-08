@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import routes from './Routes';
 
 import ChatForm from './components/ChatForm';
-import './myCSS/ChatForm.scss';
+import './myCSS/ChatForm.css';
 import { connect } from 'react-redux';
 import { actOpenFormChat } from './actions/indexAction';
 

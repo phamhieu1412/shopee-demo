@@ -1,0 +1,88 @@
+.OpenChatForm {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 220, 220);
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+}
+.OpenChatForm i {
+    font-size: 20px;
+    color: rgb(251, 86, 49);
+}
+.OpenChatForm h5 {
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: rgb(251, 86, 49);
+}
+
+.ChatForm {
+    border: 1px solid#848484;
+    border-radius: 5px 5px 0 0;
+    height: 300px;
+    width: 400px;
+    right: 15px;
+    position: fixed;
+    bottom: 0;
+    background-color:#e8e8e8;
+}
+
+.ChatForm .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid aliceblue;
+    box-shadow: 0px 8px 6px -6px black;
+}
+.ChatForm .header h6 {
+    font-size: 18px;
+    color:rgb(251, 86, 49);
+    margin: 5px 0 5px 15px;
+    font-weight: 600;
+}
+.ChatForm .header div button {
+    margin: 5px 10px 5px 0;
+}
+
+.ChatForm .content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ChatForm .content img {
+    width: 150px;
+}
+.ChatForm .content .contentChat {
+    border-right: 1px solid #d2b9b9;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChatForm .content .contentChat p {
+    margin-top: 20px;
+}
+.ChatForm .content .listChat {
+    height: 270px;
+}
+.ChatForm .content .listChat .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.ChatForm .content .listChat input {
+    width: 110px;
+    border-radius: 5px;
+    margin: 0;
+    padding-left: 5px;
+}
+.ChatForm .content .listChat .ant-select {
+    font-size: 11px;
+    width: 90px;
+    margin:0px ;
+}

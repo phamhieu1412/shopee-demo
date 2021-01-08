@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 import { actAddToCart } from '../../../actions/indexAction';
 
 import Swal from 'sweetalert2';
-import 'sweetalert2/src/sweetalert2.scss';
+// import 'sweetalert2/src/sweetalert2.scss';
 import { NavLink } from 'react-router-dom';
 
 
@@ -173,12 +173,12 @@ class MainDetail extends Component {
                                     onClick={() => this.onBuyNow(this.props.dataOfProd)}
                                 >Mua ngay</NavLink>
                                 &nbsp;
-                                <a href="# "
+                                <button
                                     className="btn detail__product-AddToCart"
                                     onClick={() => this.onAddToCart(this.props.dataOfProd)}>
                                     <i className="fa fa-cart-plus mr-10" aria-hidden="true"></i>
                                     Thêm vào giỏ hàng
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>

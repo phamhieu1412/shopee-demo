@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../myCSS/Pagination.scss';
+import '../../../myCSS/Pagination.css';
 
 
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
